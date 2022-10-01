@@ -8,8 +8,8 @@
           <div class="row">
             <div class="col-lg-12">
               <div class="text-content">
-                <h4>Recent Posts</h4>
-                <h2>Our Recent Blog Entries</h2>
+                <h4>SON POSTLAR</h4>
+                <h2>Son Blog Yazılarımız</h2>
               </div>
             </div>
           </div>
@@ -26,12 +26,12 @@
             <div class="main-content">
               <div class="row">
                 <div class="col-lg-8">
-                  <span>Stand Blog HTML5 Template</span>
-                  <h4>Creative HTML Template For Bloggers!</h4>
+                <span>Stand Blog HTML5 Şablonu</span>
+                  <h4>Bloggerlər üçün Yaradıcı HTML Şablonu!</h4>
                 </div>
                 <div class="col-lg-4">
                   <div class="main-button">
-                    <a href="https://templatemo.com/tm-551-stand-blog" target="_parent">Download Now!</a>
+                    <a href="https://templatemo.com/tm-551-stand-blog" target="_parent">Yüklə!</a>
                   </div>
                 </div>
               </div>
@@ -219,7 +219,7 @@
                 <div class="col-lg-12">
                   <ul class="page-numbers">
                     <li><a href="#">1</a></li>
-                    <li class="active"><a href="#">2</a></li>
+                    <li><a href="#">2</a></li>
                     <li><a href="#">3</a></li>
                     <li><a href="#"><i class="fa fa-angle-double-right"></i></a></li>
                   </ul>
@@ -240,7 +240,7 @@
                 <div class="col-lg-12">
                   <div class="sidebar-item recent-posts">
                     <div class="sidebar-heading">
-                      <h2>Recent Posts</h2>
+                      <h2>SON POSTLAR</h2>
                     </div>
                     <div class="content">
                       <ul>
@@ -263,7 +263,7 @@
                 <div class="col-lg-12">
                   <div class="sidebar-item categories">
                     <div class="sidebar-heading">
-                      <h2>Categories</h2>
+                      <h2>KATEQORİYALAR</h2>
                     </div>
                     <div class="content">
                       <ul>
@@ -302,6 +302,15 @@
       </div>
     </section>
 
+    <script>
+      const activePage = window.location.pathname;
+      const navLinks = document.querySelectorAll('nav a').forEach(link => {
+        if(link.href.includes(`${activePage}`)){
+          link.classList.add('active');
+          console.log(link);
+        }
+      })
+    </script>
     
     <?php $this->load->view('user/includes/footer'); ?>
     <?php $this->load->view('user/includes/footerStyle'); ?>

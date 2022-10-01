@@ -114,12 +114,12 @@
             <div class="main-content">
               <div class="row">
                 <div class="col-lg-8">
-                  <span>Stand Blog HTML5 Template</span>
-                  <h4>Creative HTML Template For Bloggers!</h4>
+                <span>Stand Blog HTML5 Şablonu</span>
+                  <h4>Bloggerlər üçün Yaradıcı HTML Şablonu!</h4>
                 </div>
                 <div class="col-lg-4">
                   <div class="main-button">
-                    <a rel="nofollow" href="https://templatemo.com/tm-551-stand-blog" target="_parent">Download Now!</a>
+                    <a href="https://templatemo.com/tm-551-stand-blog" target="_parent">Yüklə!</a>
                   </div>
                 </div>
               </div>
@@ -162,8 +162,8 @@
                           <div class="col-6">
                             <ul class="post-share">
                               <li><i class="fa fa-share-alt"></i></li>
-                              <li><a href="#">Facebook</a>,</li>
-                              <li><a href="#"> Twitter</a></li>
+                              <li><a href="https://www.facebook.com/" target="_blank">Facebook</a>,</li>
+                              <li><a href="https://twitter.com/" target="_blank"> Twitter</a></li>
                             </ul>
                           </div>
                         </div>
@@ -197,8 +197,8 @@
                           <div class="col-6">
                             <ul class="post-share">
                               <li><i class="fa fa-share-alt"></i></li>
-                              <li><a href="#">Facebook</a>,</li>
-                              <li><a href="#">Twitter</a></li>
+                              <li><a href="https://www.facebook.com/" target="_blank">Facebook</a>,</li>
+                              <li><a href="https://twitter.com/" target="_blank">Twitter</a></li>
                             </ul>
                           </div>
                         </div>
@@ -232,8 +232,8 @@
                           <div class="col-6">
                             <ul class="post-share">
                               <li><i class="fa fa-share-alt"></i></li>
-                              <li><a href="#">Facebook</a>,</li>
-                              <li><a href="#">Twitter</a></li>
+                              <li><a href="https://www.facebook.com/" target="_blank">Facebook</a>,</li>
+                              <li><a href="https://twitter.com/" target="_blank">Twitter</a></li>
                             </ul>
                           </div>
                         </div>
@@ -243,7 +243,7 @@
                 </div>
                 <div class="col-lg-12">
                   <div class="main-button">
-                    <a href="blog.html">View All Posts</a>
+                    <a href="blog.html">Bütün Postları Gör</a>
                   </div>
                 </div>
               </div>
@@ -255,14 +255,14 @@
                 <div class="col-lg-12">
                   <div class="sidebar-item search">
                     <form id="search_form" name="gs" method="GET" action="#">
-                      <input type="text" name="q" class="searchText" placeholder="type to search..." autocomplete="on">
+                      <input type="text" name="q" class="searchText" placeholder="Axrarış..." autocomplete="on">
                     </form>
                   </div>
                 </div>
                 <div class="col-lg-12">
                   <div class="sidebar-item recent-posts">
                     <div class="sidebar-heading">
-                      <h2>Recent Posts</h2>
+                      <h2>SON POSTLAR</h2>
                     </div>
                     <div class="content">
                       <ul>
@@ -285,7 +285,7 @@
                 <div class="col-lg-12">
                   <div class="sidebar-item categories">
                     <div class="sidebar-heading">
-                      <h2>Categories</h2>
+                      <h2>Kateqoriya</h2>
                     </div>
                     <div class="content">
                       <ul>
